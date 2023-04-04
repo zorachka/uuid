@@ -1,6 +1,6 @@
 {
     "name": "zorachka/uuid",
-    "description": "PHP Package Starter",
+    "description": "Uuid Provider for Zorachka",
     "type": "project",
     "require": {
         "php": "^8.1",
@@ -9,17 +9,17 @@
     },
     "license": "MIT",
     "config": {
-      "sort-packages": true,
+        "sort-packages": true,
         "allow-plugins": {
             "phpstan/extension-installer": true
         }
     },
     "authors": [
-          {
-              "name": "Siarhei Bautrukevich",
-              "email": "hello@bautrukevich.com"
-          }
-      ],
+        {
+            "name": "Siarhei Bautrukevich",
+            "email": "hello@bautrukevich.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Zorachka\\Uuid\\": "./src"
