@@ -1,5 +1,5 @@
 {
-    "name": "zorachka/php-package-starter",
+    "name": "zorachka/uuid",
     "description": "PHP Package Starter",
     "type": "project",
     "require": {
