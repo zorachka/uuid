@@ -21,6 +21,9 @@ trait UuidCapabilities
         return new self($uuid);
     }
 
+    /**
+     * @return non-empty-string
+     */
     public function asString(): string
     {
         return $this->uuid;
